@@ -43,7 +43,7 @@ def extrair_nota(bloco):
 
 # Inicia o navegador
 driver = webdriver.Chrome(options=options)
-driver.get("https://www.booking.com/hotel/br/villa-mar-boa-viagem.pt-br.html#tab-reviews")
+driver.get("https://www.booking.com/hotel/br/duble-hotel-the-original.pt-br.html#tab-reviews")
 time.sleep(5)  # Aguarda carregamento inicial
 
 comentarios = []
@@ -97,7 +97,7 @@ while True:
         comentarios.append((data, titulo, positivo, negativo, nota))
 
     # Limite de páginas
-    if pagina >= 36:
+    if pagina >= 129:
         print("⛔ Limite de páginas atingido.")
         break
 
@@ -116,7 +116,7 @@ while True:
 driver.quit()
 
 # Exportar CSV
-arquivo_csv = "Hotel_Villa_Mar_Reviews.csv"
+arquivo_csv = "Duble_Hotel.csv"
 # Exportar CSV com proteção contra quebras e vírgulas
 with open(arquivo_csv, "w", newline="", encoding="utf-8-sig") as f:
     writer = csv.writer(f, quoting=csv.QUOTE_ALL, quotechar='"')
