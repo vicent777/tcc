@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7a49ea1fc06a1095558f997e1c5cbe52 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7a49ea1fc06a1095558f997e1c5cbe52" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7a49ea1fc06a1095558f997e1c5cbe52 = L.map(
+                "map_7a49ea1fc06a1095558f997e1c5cbe52",
+                {
+                    center: [-8.12370769282443, -34.89875244372134],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_545c50efc9a24d3b4d6defa042cc328d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_545c50efc9a24d3b4d6defa042cc328d.addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var marker_19ea6808c50ca9c618b89d6c36f7b7f9 = L.marker(
+                [-8.136203379265334, -34.90138595924756],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_7b1abeecc4901a76317aa8b384f081a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f58bf3e2a767d94a46dbc9e7325f06af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a05572762564f238de1156faa71e4aac = $(`<div id="html_a05572762564f238de1156faa71e4aac" style="width: 100.0%; height: 100.0%;">Atlante_Plaza</div>`)[0];
+                popup_f58bf3e2a767d94a46dbc9e7325f06af.setContent(html_a05572762564f238de1156faa71e4aac);
+            
+        
+
+        marker_19ea6808c50ca9c618b89d6c36f7b7f9.bindPopup(popup_f58bf3e2a767d94a46dbc9e7325f06af)
+        ;
+
+        
+    
+    
+                marker_19ea6808c50ca9c618b89d6c36f7b7f9.setIcon(icon_7b1abeecc4901a76317aa8b384f081a3);
+            
+    
+            var marker_33a1d06ea3ba520afdb7d0104448fc97 = L.marker(
+                [-8.113060663182512, -34.89791227884781],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_471b47b5df4330abdddecdd40e2a88b0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_45d653fb57667c5215e539bfcb73b3b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4077ddaf3d281642414a6112c8ed328 = $(`<div id="html_e4077ddaf3d281642414a6112c8ed328" style="width: 100.0%; height: 100.0%;">Beach_Class_Convention</div>`)[0];
+                popup_45d653fb57667c5215e539bfcb73b3b1.setContent(html_e4077ddaf3d281642414a6112c8ed328);
+            
+        
+
+        marker_33a1d06ea3ba520afdb7d0104448fc97.bindPopup(popup_45d653fb57667c5215e539bfcb73b3b1)
+        ;
+
+        
+    
+    
+                marker_33a1d06ea3ba520afdb7d0104448fc97.setIcon(icon_471b47b5df4330abdddecdd40e2a88b0);
+            
+    
+            var marker_f63d83efd209ac996a97e72e4542ae9f = L.marker(
+                [-8.116538871476644, -34.89485987458913],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_db6426bad89642693804874dcef4169d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a4928740d3fc2e7f7a08b5f29687750 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7953f8dacaad3d0a4a5f6a3e05e51c4 = $(`<div id="html_b7953f8dacaad3d0a4a5f6a3e05e51c4" style="width: 100.0%; height: 100.0%;">Bianca_Praia_Hotel</div>`)[0];
+                popup_9a4928740d3fc2e7f7a08b5f29687750.setContent(html_b7953f8dacaad3d0a4a5f6a3e05e51c4);
+            
+        
+
+        marker_f63d83efd209ac996a97e72e4542ae9f.bindPopup(popup_9a4928740d3fc2e7f7a08b5f29687750)
+        ;
+
+        
+    
+    
+                marker_f63d83efd209ac996a97e72e4542ae9f.setIcon(icon_db6426bad89642693804874dcef4169d);
+            
+    
+            var marker_d7c6eda5678842c387241164f6931e8c = L.marker(
+                [-8.129007192286256, -34.90062504646503],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_b695793e813f996739fd1578442604b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9ccc29379af6f8326b7dac5337b0644a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bc2094165bfd2372edb43756878e719 = $(`<div id="html_9bc2094165bfd2372edb43756878e719" style="width: 100.0%; height: 100.0%;">Bugan</div>`)[0];
+                popup_9ccc29379af6f8326b7dac5337b0644a.setContent(html_9bc2094165bfd2372edb43756878e719);
+            
+        
+
+        marker_d7c6eda5678842c387241164f6931e8c.bindPopup(popup_9ccc29379af6f8326b7dac5337b0644a)
+        ;
+
+        
+    
+    
+                marker_d7c6eda5678842c387241164f6931e8c.setIcon(icon_b695793e813f996739fd1578442604b3);
+            
+    
+            var marker_4edeb1a4378a05c38f8d6ed86baa65be = L.marker(
+                [-8.113965413308687, -34.892547553859856],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_153ad346e488b52a09ebd3aea0c0c46f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7ef3e8bc38082a82dc78ff5e809c66a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_949cd856cd4d2fef6da90fffb471627d = $(`<div id="html_949cd856cd4d2fef6da90fffb471627d" style="width: 100.0%; height: 100.0%;">Duble_Hotel</div>`)[0];
+                popup_7ef3e8bc38082a82dc78ff5e809c66a0.setContent(html_949cd856cd4d2fef6da90fffb471627d);
+            
+        
+
+        marker_4edeb1a4378a05c38f8d6ed86baa65be.bindPopup(popup_7ef3e8bc38082a82dc78ff5e809c66a0)
+        ;
+
+        
+    
+    
+                marker_4edeb1a4378a05c38f8d6ed86baa65be.setIcon(icon_153ad346e488b52a09ebd3aea0c0c46f);
+            
+    
+            var marker_7b6548b6127dede66255f9d6df2aca2c = L.marker(
+                [-8.128197012930327, -34.89885518084642],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_ce2fc2b43f3e46aed11a9d9cdd6de685 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_709aacb995623be9e02a6540d7b9b28f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76613c3a6b13a64cc6713f9aa028ea37 = $(`<div id="html_76613c3a6b13a64cc6713f9aa028ea37" style="width: 100.0%; height: 100.0%;">El_Aram_Beach</div>`)[0];
+                popup_709aacb995623be9e02a6540d7b9b28f.setContent(html_76613c3a6b13a64cc6713f9aa028ea37);
+            
+        
+
+        marker_7b6548b6127dede66255f9d6df2aca2c.bindPopup(popup_709aacb995623be9e02a6540d7b9b28f)
+        ;
+
+        
+    
+    
+                marker_7b6548b6127dede66255f9d6df2aca2c.setIcon(icon_ce2fc2b43f3e46aed11a9d9cdd6de685);
+            
+    
+            var marker_d4e88e8fabde04e33f9a652797d0fdda = L.marker(
+                [-8.119903487717643, -34.89711670413616],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_3f600ba5b075a7071e01d7ffdad7d320 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b233028c7227d53db9b9fa500fad27b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca32a0138a2448581a3c55a265c4032d = $(`<div id="html_ca32a0138a2448581a3c55a265c4032d" style="width: 100.0%; height: 100.0%;">Fity_Hotel</div>`)[0];
+                popup_b233028c7227d53db9b9fa500fad27b0.setContent(html_ca32a0138a2448581a3c55a265c4032d);
+            
+        
+
+        marker_d4e88e8fabde04e33f9a652797d0fdda.bindPopup(popup_b233028c7227d53db9b9fa500fad27b0)
+        ;
+
+        
+    
+    
+                marker_d4e88e8fabde04e33f9a652797d0fdda.setIcon(icon_3f600ba5b075a7071e01d7ffdad7d320);
+            
+    
+            var marker_7443028128353ae764849439e3c15917 = L.marker(
+                [-8.124674198129473, -34.89636857090203],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_103c36da13c4be139d332ad350222af6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_38cefbd163434ca0d70b4f14af7542cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_727f05e6634fcb65f9b2ff1dbe39afef = $(`<div id="html_727f05e6634fcb65f9b2ff1dbe39afef" style="width: 100.0%; height: 100.0%;">Grand_Mercure</div>`)[0];
+                popup_38cefbd163434ca0d70b4f14af7542cd.setContent(html_727f05e6634fcb65f9b2ff1dbe39afef);
+            
+        
+
+        marker_7443028128353ae764849439e3c15917.bindPopup(popup_38cefbd163434ca0d70b4f14af7542cd)
+        ;
+
+        
+    
+    
+                marker_7443028128353ae764849439e3c15917.setIcon(icon_103c36da13c4be139d332ad350222af6);
+            
+    
+            var marker_f01e70f1b886680e907b90242f8d337e = L.marker(
+                [-8.155681905054847, -34.90968353968906],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_7d1024308d01f62e1aaeeb87755682ef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20259bd574966c7920f2aad9e343aa53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ebacdbcce0ded15b2f5867a69835124 = $(`<div id="html_5ebacdbcce0ded15b2f5867a69835124" style="width: 100.0%; height: 100.0%;">Hotel_Barramares</div>`)[0];
+                popup_20259bd574966c7920f2aad9e343aa53.setContent(html_5ebacdbcce0ded15b2f5867a69835124);
+            
+        
+
+        marker_f01e70f1b886680e907b90242f8d337e.bindPopup(popup_20259bd574966c7920f2aad9e343aa53)
+        ;
+
+        
+    
+    
+                marker_f01e70f1b886680e907b90242f8d337e.setIcon(icon_7d1024308d01f62e1aaeeb87755682ef);
+            
+    
+            var marker_78b97cacd50249db399b8154462ae02a = L.marker(
+                [-8.131178219212332, -34.902982946464896],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_92ea688ed5de65fa443b48b813f890a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0a5d9a89e0c73f7de30152da50e98259 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7be75099107aefa6f363b49ff713ae27 = $(`<div id="html_7be75099107aefa6f363b49ff713ae27" style="width: 100.0%; height: 100.0%;">Hotel_Boa_Viagem_Aeroporto</div>`)[0];
+                popup_0a5d9a89e0c73f7de30152da50e98259.setContent(html_7be75099107aefa6f363b49ff713ae27);
+            
+        
+
+        marker_78b97cacd50249db399b8154462ae02a.bindPopup(popup_0a5d9a89e0c73f7de30152da50e98259)
+        ;
+
+        
+    
+    
+                marker_78b97cacd50249db399b8154462ae02a.setIcon(icon_92ea688ed5de65fa443b48b813f890a2);
+            
+    
+            var marker_3dfb9965878bbeab1bf46724c4073c3a = L.marker(
+                [-8.130146655857049, -34.90419399064265],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_56922c4c463394af8c34a2c9db4b95fd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_68963becb220cdc5c87299096996d0e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdd1f9bba3281e44c63ae74f98b9a4ef = $(`<div id="html_fdd1f9bba3281e44c63ae74f98b9a4ef" style="width: 100.0%; height: 100.0%;">Hotel_Enseada_Boa_Viagem</div>`)[0];
+                popup_68963becb220cdc5c87299096996d0e5.setContent(html_fdd1f9bba3281e44c63ae74f98b9a4ef);
+            
+        
+
+        marker_3dfb9965878bbeab1bf46724c4073c3a.bindPopup(popup_68963becb220cdc5c87299096996d0e5)
+        ;
+
+        
+    
+    
+                marker_3dfb9965878bbeab1bf46724c4073c3a.setIcon(icon_56922c4c463394af8c34a2c9db4b95fd);
+            
+    
+            var marker_7ae83755a183f828f253935f3d5cc256 = L.marker(
+                [-8.126839627939237, -34.89739677530049],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_1480a1dde087e333ba6700286e0e74da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1856f381f688125efd9df218d738fcff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a05995fe8f7b207e0770ca278c96b937 = $(`<div id="html_a05995fe8f7b207e0770ca278c96b937" style="width: 100.0%; height: 100.0%;">Hotel_Euro_Suite</div>`)[0];
+                popup_1856f381f688125efd9df218d738fcff.setContent(html_a05995fe8f7b207e0770ca278c96b937);
+            
+        
+
+        marker_7ae83755a183f828f253935f3d5cc256.bindPopup(popup_1856f381f688125efd9df218d738fcff)
+        ;
+
+        
+    
+    
+                marker_7ae83755a183f828f253935f3d5cc256.setIcon(icon_1480a1dde087e333ba6700286e0e74da);
+            
+    
+            var marker_7fa59a18d3b93bb0846a883a31bca2c9 = L.marker(
+                [-8.13753159656879, -34.90150448509647],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_8091522562488353149e66c854b7ba09 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0d44cdad248b7fa9dcdffbcbdf2b43c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_417ff66a121f78eb5c9e7954017d6020 = $(`<div id="html_417ff66a121f78eb5c9e7954017d6020" style="width: 100.0%; height: 100.0%;">Hotel_Golden_Park</div>`)[0];
+                popup_0d44cdad248b7fa9dcdffbcbdf2b43c3.setContent(html_417ff66a121f78eb5c9e7954017d6020);
+            
+        
+
+        marker_7fa59a18d3b93bb0846a883a31bca2c9.bindPopup(popup_0d44cdad248b7fa9dcdffbcbdf2b43c3)
+        ;
+
+        
+    
+    
+                marker_7fa59a18d3b93bb0846a883a31bca2c9.setIcon(icon_8091522562488353149e66c854b7ba09);
+            
+    
+            var marker_f170774f537fcb19210f7f054ee42777 = L.marker(
+                [-8.116906386214726, -34.89291548509691],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_fb91cc7e344dd9877eeed29495d194f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_131b6b0025a4f12bb9ec4f094f6acf0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c37d25ec43b9ef92d2b31b7447ae667 = $(`<div id="html_2c37d25ec43b9ef92d2b31b7447ae667" style="width: 100.0%; height: 100.0%;">Hotel_Jangadeiro</div>`)[0];
+                popup_131b6b0025a4f12bb9ec4f094f6acf0c.setContent(html_2c37d25ec43b9ef92d2b31b7447ae667);
+            
+        
+
+        marker_f170774f537fcb19210f7f054ee42777.bindPopup(popup_131b6b0025a4f12bb9ec4f094f6acf0c)
+        ;
+
+        
+    
+    
+                marker_f170774f537fcb19210f7f054ee42777.setIcon(icon_fb91cc7e344dd9877eeed29495d194f8);
+            
+    
+            var marker_27fa6e75ab3e4b92634498b5abf7edb2 = L.marker(
+                [-8.122682201092564, -34.90725094091936],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_b64dd40880f27aebecdc7b228840586b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cdc24a93b5a9adbbb83a4c602a986637 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4787d8266f66642fa8a237c2cf1098a = $(`<div id="html_b4787d8266f66642fa8a237c2cf1098a" style="width: 100.0%; height: 100.0%;">Hotel_Nacional_Inn</div>`)[0];
+                popup_cdc24a93b5a9adbbb83a4c602a986637.setContent(html_b4787d8266f66642fa8a237c2cf1098a);
+            
+        
+
+        marker_27fa6e75ab3e4b92634498b5abf7edb2.bindPopup(popup_cdc24a93b5a9adbbb83a4c602a986637)
+        ;
+
+        
+    
+    
+                marker_27fa6e75ab3e4b92634498b5abf7edb2.setIcon(icon_b64dd40880f27aebecdc7b228840586b);
+            
+    
+            var marker_7fb4b638a4a8924443bdc679f10932cf = L.marker(
+                [-8.099264077378832, -34.885193686945804],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_552c70aab1c41359d3aebdbde12a3a09 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b7f8fb5af8550717526b89f08c17f571 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_598185cd2a8851bbb5251c15cbe9f74e = $(`<div id="html_598185cd2a8851bbb5251c15cbe9f74e" style="width: 100.0%; height: 100.0%;">Hotel_Uzi_Mar</div>`)[0];
+                popup_b7f8fb5af8550717526b89f08c17f571.setContent(html_598185cd2a8851bbb5251c15cbe9f74e);
+            
+        
+
+        marker_7fb4b638a4a8924443bdc679f10932cf.bindPopup(popup_b7f8fb5af8550717526b89f08c17f571)
+        ;
+
+        
+    
+    
+                marker_7fb4b638a4a8924443bdc679f10932cf.setIcon(icon_552c70aab1c41359d3aebdbde12a3a09);
+            
+    
+            var marker_b9df2cb8d099e759d5d816a6c6e63a23 = L.marker(
+                [-8.127751554844663, -34.898158559958446],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_9b33fe3a6365100dd604eba3ba2ee0ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0a9d125331ffa631750438164b813df1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58bfeb29c009ded3ea5c27aa7429f987 = $(`<div id="html_58bfeb29c009ded3ea5c27aa7429f987" style="width: 100.0%; height: 100.0%;">Hotel_Villa_Mar</div>`)[0];
+                popup_0a9d125331ffa631750438164b813df1.setContent(html_58bfeb29c009ded3ea5c27aa7429f987);
+            
+        
+
+        marker_b9df2cb8d099e759d5d816a6c6e63a23.bindPopup(popup_0a9d125331ffa631750438164b813df1)
+        ;
+
+        
+    
+    
+                marker_b9df2cb8d099e759d5d816a6c6e63a23.setIcon(icon_9b33fe3a6365100dd604eba3ba2ee0ec);
+            
+    
+            var marker_6892af68233a05a043f14ebb9f35db98 = L.marker(
+                [-8.128025660244557, -34.90014519434001],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_22be086c2cc352305df9471d832c4216 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0e136dfd28e6f053c4fd4b85cd9731ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_870f24c541571a168f5722e0a7050c70 = $(`<div id="html_870f24c541571a168f5722e0a7050c70" style="width: 100.0%; height: 100.0%;">Hote_Saveiro</div>`)[0];
+                popup_0e136dfd28e6f053c4fd4b85cd9731ee.setContent(html_870f24c541571a168f5722e0a7050c70);
+            
+        
+
+        marker_6892af68233a05a043f14ebb9f35db98.bindPopup(popup_0e136dfd28e6f053c4fd4b85cd9731ee)
+        ;
+
+        
+    
+    
+                marker_6892af68233a05a043f14ebb9f35db98.setIcon(icon_22be086c2cc352305df9471d832c4216);
+            
+    
+            var marker_dc8eb950c73bc0e9d027493ff924e4dc = L.marker(
+                [-8.131745935575738, -34.91511527714923],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_fee08d619020b2e608ab02b2189595b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5945d5afcdf5ef5392ba01a66eb34ec1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_155241240c25082dc26d921d9b600a6c = $(`<div id="html_155241240c25082dc26d921d9b600a6c" style="width: 100.0%; height: 100.0%;">Ibis_Recife_Aeroporto</div>`)[0];
+                popup_5945d5afcdf5ef5392ba01a66eb34ec1.setContent(html_155241240c25082dc26d921d9b600a6c);
+            
+        
+
+        marker_dc8eb950c73bc0e9d027493ff924e4dc.bindPopup(popup_5945d5afcdf5ef5392ba01a66eb34ec1)
+        ;
+
+        
+    
+    
+                marker_dc8eb950c73bc0e9d027493ff924e4dc.setIcon(icon_fee08d619020b2e608ab02b2189595b1);
+            
+    
+            var marker_465f73a99205d5f826db08ebbd432615 = L.marker(
+                [-8.100728208777152, -34.884838904136366],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_9591e01136db58590db132a2c196a468 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f135d3053092da48b8a2637156b2d783 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c78e51afe2195098d3820b6760b23bbf = $(`<div id="html_c78e51afe2195098d3820b6760b23bbf" style="width: 100.0%; height: 100.0%;">Marante_Plaza</div>`)[0];
+                popup_f135d3053092da48b8a2637156b2d783.setContent(html_c78e51afe2195098d3820b6760b23bbf);
+            
+        
+
+        marker_465f73a99205d5f826db08ebbd432615.bindPopup(popup_f135d3053092da48b8a2637156b2d783)
+        ;
+
+        
+    
+    
+                marker_465f73a99205d5f826db08ebbd432615.setIcon(icon_9591e01136db58590db132a2c196a468);
+            
+    
+            var marker_ccfaab545499f1f052cc11aa9def900f = L.marker(
+                [-8.13181441943075, -34.903685229273975],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_ed7db6742b239dd0438b218d63bc1aad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_70b3065c882f0e99344ec096e42d8122 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85e2bebefcb56f4b78e3f8f085970dba = $(`<div id="html_85e2bebefcb56f4b78e3f8f085970dba" style="width: 100.0%; height: 100.0%;">Mar_Hotel_Conventions</div>`)[0];
+                popup_70b3065c882f0e99344ec096e42d8122.setContent(html_85e2bebefcb56f4b78e3f8f085970dba);
+            
+        
+
+        marker_ccfaab545499f1f052cc11aa9def900f.bindPopup(popup_70b3065c882f0e99344ec096e42d8122)
+        ;
+
+        
+    
+    
+                marker_ccfaab545499f1f052cc11aa9def900f.setIcon(icon_ed7db6742b239dd0438b218d63bc1aad);
+            
+    
+            var marker_dc1acc71390a5d0b5dc1c2cdad7381a5 = L.marker(
+                [-8.117707644623852, -34.8933032467688],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_7886a7ac16f3178a0012ad5c2a8a7484 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_71c23250004a7b3a86839bf11cca3dd9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72ea11bc6b16f54cce53a178bf0c6f07 = $(`<div id="html_72ea11bc6b16f54cce53a178bf0c6f07" style="width: 100.0%; height: 100.0%;">Mercure_Recife</div>`)[0];
+                popup_71c23250004a7b3a86839bf11cca3dd9.setContent(html_72ea11bc6b16f54cce53a178bf0c6f07);
+            
+        
+
+        marker_dc1acc71390a5d0b5dc1c2cdad7381a5.bindPopup(popup_71c23250004a7b3a86839bf11cca3dd9)
+        ;
+
+        
+    
+    
+                marker_dc1acc71390a5d0b5dc1c2cdad7381a5.setIcon(icon_7886a7ac16f3178a0012ad5c2a8a7484);
+            
+    
+            var marker_65087c839b61538b7ffce316b4b329d2 = L.marker(
+                [-8.131342856362762, -34.90008165016226],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_3814cc4252ba22254e286fe0f41a8e9a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e5d57c5b9960f10c3f7ab3396c133dc8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de8a8ef928ffa6568091d4608e82e1aa = $(`<div id="html_de8a8ef928ffa6568091d4608e82e1aa" style="width: 100.0%; height: 100.0%;">Park_Hotel</div>`)[0];
+                popup_e5d57c5b9960f10c3f7ab3396c133dc8.setContent(html_de8a8ef928ffa6568091d4608e82e1aa);
+            
+        
+
+        marker_65087c839b61538b7ffce316b4b329d2.bindPopup(popup_e5d57c5b9960f10c3f7ab3396c133dc8)
+        ;
+
+        
+    
+    
+                marker_65087c839b61538b7ffce316b4b329d2.setIcon(icon_3814cc4252ba22254e286fe0f41a8e9a);
+            
+    
+            var marker_5f9e2b97ad7ac59b53b64bd8c732e5cd = L.marker(
+                [-8.107311059803774, -34.88785122927451],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_4b10e1b9fe46abfae3a9a2a7ef1451c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_468e5cb2b2a0ab30eb01903e12163e68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51c52b3cc372f1ac59c5707dfd2e9b26 = $(`<div id="html_51c52b3cc372f1ac59c5707dfd2e9b26" style="width: 100.0%; height: 100.0%;">Radisson_Recife</div>`)[0];
+                popup_468e5cb2b2a0ab30eb01903e12163e68.setContent(html_51c52b3cc372f1ac59c5707dfd2e9b26);
+            
+        
+
+        marker_5f9e2b97ad7ac59b53b64bd8c732e5cd.bindPopup(popup_468e5cb2b2a0ab30eb01903e12163e68)
+        ;
+
+        
+    
+    
+                marker_5f9e2b97ad7ac59b53b64bd8c732e5cd.setIcon(icon_4b10e1b9fe46abfae3a9a2a7ef1451c3);
+            
+    
+            var marker_4c0e8b4dc56409e1feb0a4718ec08766 = L.marker(
+                [-8.115955735367182, -34.89480701762941],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_3767359381bdbbf89b4ee877a4195848 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_76518c2186aa8f2457323009b7bbfad7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43a600ac5ecb87e281b9e48f2d6760a2 = $(`<div id="html_43a600ac5ecb87e281b9e48f2d6760a2" style="width: 100.0%; height: 100.0%;">Rede_Andrade_LG_Inn</div>`)[0];
+                popup_76518c2186aa8f2457323009b7bbfad7.setContent(html_43a600ac5ecb87e281b9e48f2d6760a2);
+            
+        
+
+        marker_4c0e8b4dc56409e1feb0a4718ec08766.bindPopup(popup_76518c2186aa8f2457323009b7bbfad7)
+        ;
+
+        
+    
+    
+                marker_4c0e8b4dc56409e1feb0a4718ec08766.setIcon(icon_3767359381bdbbf89b4ee877a4195848);
+            
+    
+            var marker_2cdf32f7a56dd38f37e26f0f82a3617c = L.marker(
+                [-8.115282670972526, -34.89299295201114],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_075214b4959d43b8de5bad7b5b06ae3f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3393f02c431b84825973d598dc4ebde = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fcbfbc2213f7bdc3157b17dc8c03eaec = $(`<div id="html_fcbfbc2213f7bdc3157b17dc8c03eaec" style="width: 100.0%; height: 100.0%;">Rede_Andrade_Navegantes_Praia</div>`)[0];
+                popup_d3393f02c431b84825973d598dc4ebde.setContent(html_fcbfbc2213f7bdc3157b17dc8c03eaec);
+            
+        
+
+        marker_2cdf32f7a56dd38f37e26f0f82a3617c.bindPopup(popup_d3393f02c431b84825973d598dc4ebde)
+        ;
+
+        
+    
+    
+                marker_2cdf32f7a56dd38f37e26f0f82a3617c.setIcon(icon_075214b4959d43b8de5bad7b5b06ae3f);
+            
+    
+            var marker_cd41124a7613f64736cd3c709ff8bfa1 = L.marker(
+                [-8.12442250538446, -34.89913364831368],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_beff18fd7d6fba9790fd1e4723357865 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e3fe1d6f6352bb14e6c3e9d575a7a263 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4f1f0778a35db418cd4a4d9ea4d0138 = $(`<div id="html_c4f1f0778a35db418cd4a4d9ea4d0138" style="width: 100.0%; height: 100.0%;">Rede_Andrade_Onda_mar</div>`)[0];
+                popup_e3fe1d6f6352bb14e6c3e9d575a7a263.setContent(html_c4f1f0778a35db418cd4a4d9ea4d0138);
+            
+        
+
+        marker_cd41124a7613f64736cd3c709ff8bfa1.bindPopup(popup_e3fe1d6f6352bb14e6c3e9d575a7a263)
+        ;
+
+        
+    
+    
+                marker_cd41124a7613f64736cd3c709ff8bfa1.setIcon(icon_beff18fd7d6fba9790fd1e4723357865);
+            
+    
+            var marker_35f4cc7ade210c655c098500e0df98a5 = L.marker(
+                [-8.13286903608039, -34.91099331762953],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_7e84f698c1dc872fa848cd17b7f54cb3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2b0514d3aa8fcdefedc3fa201ec7ea39 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a967153f7c422764a3bea19242632c25 = $(`<div id="html_a967153f7c422764a3bea19242632c25" style="width: 100.0%; height: 100.0%;">Suites_Residence</div>`)[0];
+                popup_2b0514d3aa8fcdefedc3fa201ec7ea39.setContent(html_a967153f7c422764a3bea19242632c25);
+            
+        
+
+        marker_35f4cc7ade210c655c098500e0df98a5.bindPopup(popup_2b0514d3aa8fcdefedc3fa201ec7ea39)
+        ;
+
+        
+    
+    
+                marker_35f4cc7ade210c655c098500e0df98a5.setIcon(icon_7e84f698c1dc872fa848cd17b7f54cb3);
+            
+    
+            var marker_d9275a7e4d0c0698da3e7216e562813a = L.marker(
+                [-8.116189207223707, -34.89973831762948],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_5cc02a60e96d0a682d49943965d233f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_72d5da014487d9e97c5c1bb2518123f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_849539e803541e153551f6ceb86aabb5 = $(`<div id="html_849539e803541e153551f6ceb86aabb5" style="width: 100.0%; height: 100.0%;">Transamerica_Fit_Recife</div>`)[0];
+                popup_72d5da014487d9e97c5c1bb2518123f1.setContent(html_849539e803541e153551f6ceb86aabb5);
+            
+        
+
+        marker_d9275a7e4d0c0698da3e7216e562813a.bindPopup(popup_72d5da014487d9e97c5c1bb2518123f1)
+        ;
+
+        
+    
+    
+                marker_d9275a7e4d0c0698da3e7216e562813a.setIcon(icon_5cc02a60e96d0a682d49943965d233f7);
+            
+    
+            var marker_0a1aba5547e2d3a83c3ef431309bb618 = L.marker(
+                [-8.128303402426116, -34.90093574831378],
+                {
+}
+            ).addTo(map_7a49ea1fc06a1095558f997e1c5cbe52);
+        
+    
+            var icon_9d47f7de84096419653ebf959eea3df3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d8882761a650ac9562d2e1c17dcf4edc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5752fc1b6e93c9da01b5abdafd2524f = $(`<div id="html_f5752fc1b6e93c9da01b5abdafd2524f" style="width: 100.0%; height: 100.0%;">Vela_Branca</div>`)[0];
+                popup_d8882761a650ac9562d2e1c17dcf4edc.setContent(html_f5752fc1b6e93c9da01b5abdafd2524f);
+            
+        
+
+        marker_0a1aba5547e2d3a83c3ef431309bb618.bindPopup(popup_d8882761a650ac9562d2e1c17dcf4edc)
+        ;
+
+        
+    
+    
+                marker_0a1aba5547e2d3a83c3ef431309bb618.setIcon(icon_9d47f7de84096419653ebf959eea3df3);
+            
+</script>
+</html>

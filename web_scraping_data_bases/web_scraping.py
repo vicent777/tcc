@@ -68,12 +68,7 @@ while True:
             data = ""
         
         titulo = extrair_titulo(bloco)
-        """
-        try:
-            titulo = bloco.find_element(By.CSS_SELECTOR, '[data-testid="review-title"]').text
-        except:
-            titulo = ""
-"""
+
         try:
             positivo = bloco.find_element(By.CSS_SELECTOR, 'div[data-testid="review-positive-text"] div.a53cbfa6de span').text
         except:
@@ -86,12 +81,6 @@ while True:
         
         
         nota = extrair_nota(bloco)
-        """
-        try:
-            nota = bloco.find_element(By.XPATH, ".//div[@data-testid='review-score']//div[contains(@class, 'a3b8729ab1')]").text.strip().split('\n')[-1]
-        except:
-            nota = ""
-"""
 
 
         comentarios.append((data, titulo, positivo, negativo, nota))
